@@ -1,6 +1,6 @@
 [![banner](https://raw.githubusercontent.com/oceanprotocol/art/master/github/repo-banner%402x.png)](https://oceanprotocol.com)
 
-<h1 align="center">Commons</h1>
+<h1 align="center">The Auger Network</h1>
 
 > 🏄‍♀️ Marketplace front-end and backend server to explore, download, and publish open data sets.
 > https://commons.oceanprotocol.com
