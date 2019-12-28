@@ -23,7 +23,7 @@ export default class Header extends PureComponent {
         return (
             <header className={styles.header}>
                 <div className={styles.headerContent}>
-                    <NavLink to="/" className={styles.headerLogo}>
+                    <NavLink to="/" className="navbar-brand">
                         <img src={Logo} alt="auger_network"/>
                     </NavLink>
 
