@@ -30,7 +30,7 @@ const categoryImageFile = (category: string) => {
         case '"Urban Planning"':
             return Water
 
-         case 'Dataset Of Datasets':
+         case 'Sociology':
        
             return Disaster_Resilience_Governance_Learning
 

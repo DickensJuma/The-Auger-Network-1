@@ -43,6 +43,7 @@ class Home extends PureComponent<HomeProps, HomeState> {
                 <Content>
                     <Search searchAssets={this.searchAssets} />
                 </Content>
+                
 
                 <Content wide>
                     {showChannels && (
