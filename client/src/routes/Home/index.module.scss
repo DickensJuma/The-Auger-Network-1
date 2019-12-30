@@ -2,6 +2,8 @@
 
 .home {
     display: block;
+   
+
 
     form {
         margin-bottom: $spacer * 3;
@@ -23,7 +25,7 @@
 .title {
     font-size: $font-size-h4;
     text-align: center;
-    color: $brand-grey-light;
+    color: #ffffff;
     border-bottom: 1px solid $brand-grey-lighter;
     padding-bottom: $spacer / 3;
     margin-top: $spacer * 3;
@@ -43,7 +45,7 @@
 .category {
     h3 {
         font-size: $font-size-base;
-        color: $brand-grey;
+        color: #ffffff;
         margin-top: -($spacer / 3);
         margin-bottom: 0;
     }

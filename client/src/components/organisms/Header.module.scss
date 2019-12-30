@@ -32,7 +32,7 @@
 
 .headerTitle {
     font-size: $font-size-h3;
-    color: $brand-grey-light;
+    color: #fff;
     margin-left: $spacer / 2;
     display: none;
 
@@ -78,7 +78,7 @@
     display: inline-block;
     margin: 0 $spacer / 2;
     font-weight: $font-weight-bold;
-    color: $brand-grey;
+    color: #fff;
 
     &:last-child {
         margin-right: 0;
@@ -87,13 +87,13 @@
     &:hover,
     &:focus,
     &:active {
-        color: $brand-pink;
+        color: #20c9bb;
     }
 }
 
 .linkActive {
     composes: link;
-    color: $brand-pink;
+    color: #20c9bb;;
     pointer-events: none;
 }
 
