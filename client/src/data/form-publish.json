@@ -38,22 +38,16 @@
           "type": "select",
           "required": true,
           "options": [
-            
-            "Dataset Of Datasets",
-           
-            "Biology",
-            "Physics & Energy",
-            
-            "Space & Astronomy",
-            
-            
-            "Agriculture & Bio Engineering",
-            "Urban Planning",
-            "Health & Medicine",
-            "Business & Management"
-           
-            
-            
+            "Energy Environment",
+            "Food",
+            "Shelter",
+            "Space",
+            "Water",
+            "Disaster Resilience Governance Learning",
+            "Prosperity",
+            "Security",
+            "Health",
+            "Energy"
           ]
         },
         "dateCreated": {

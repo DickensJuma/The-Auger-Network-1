@@ -1,4 +1,4 @@
-[![banner](https://raw.githubusercontent.com/oceanprotocol/art/master/github/repo-banner%402x.png)](https://oceanprotocol.com)
+[![banner](https://ibb.co/5FPzfQS)](https://oceanprotocol.com)
 
 <h1 align="center">The Auger Network</h1>
 
@@ -14,7 +14,7 @@
 [![js oceanprotocol](https://img.shields.io/badge/js-oceanprotocol-7b1173.svg)](https://github.com/oceanprotocol/eslint-config-oceanprotocol)
 [![css bigchaindb](https://img.shields.io/badge/css-bigchaindb-39BA91.svg)](https://github.com/bigchaindb/stylelint-config-bigchaindb)
 
-<img width="1218" alt="Commons UI" src="https://user-images.githubusercontent.com/90316/55874266-296ef080-5b92-11e9-8ac6-2423cb2a80fb.png">
+<img width="1218" alt="Commons UI" src="https://ibb.co/Cs4Yspz">
 
 ---
 
