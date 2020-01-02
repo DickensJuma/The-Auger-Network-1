@@ -13,12 +13,12 @@
         position: absolute;
         top: 0;
         left: 50%;
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         margin-top: -20px;
         margin-left: -10px;
         border-radius: 50%;
-        border: 2px solid $brand-purple;
+        border: 2px solid $green;
         border-top-color: $brand-violet;
         animation: spinner .6s linear infinite;
     }

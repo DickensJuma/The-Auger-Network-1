@@ -8,6 +8,7 @@ import { ReactComponent as Caret } from '../../img/caret.svg'
 import { User } from '../../context'
 import Button from './Button'
 
+
 export default class Account extends PureComponent<
     {},
     { isAccountInfoOpen: boolean }
