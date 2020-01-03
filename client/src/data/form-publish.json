@@ -38,17 +38,19 @@
           "type": "select",
           "required": true,
           "options": [
-            "Energy Environment",
+            "Environment",
             "Food",
             "Shelter",
             "Space",
             "Water",
-            "Disaster Resilience Governance Learning",
+            "Disaster Resilience ",
+           "Governance",
             "Prosperity",
             "Security",
             "Health",
             "Energy",
-            "Iot"
+            "Learning"
+            
             
           ]
         },
@@ -66,7 +68,8 @@
             "Remote Sensing",
             "Geo-spacial Tech",
             "IoT",
-            "3D Printing"
+            "3D Printing",
+            "Bio Technology"
           ]
         },
 

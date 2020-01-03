@@ -2,12 +2,14 @@ import React, { PureComponent } from 'react'
 import cx from 'classnames'
 import styles from './CategoryImage.module.scss'
 
-import Energy_Enviroment from '../../img/categories/green-energy.jpg';
+import Enviroment from '../../img/categories/green-energy.jpg';
 import Food from '../../img/categories/Fruitsveggies.jpg';
 import Shelter from '../../img/categories/shelter.png';
 import Space from '../../img/categories/space.jpg';
 import Water from '../../img/categories/water.jpg';
-import Disaster_Resilience_Governance_Learning from '../../img/categories/data.jpg';
+import Disaster_Resilience from '../../img/categories/data.jpg';
+import Governance from '../../img/categories/politics.jpg';
+import Learning  from '../../img/categories/learning.jpg';
 import Prosperity from '../../img/categories/prosperity.jpg'
 import Security from '../../img/categories/security.jpg'
 import Health from '../../img/categories/health.jpg'
@@ -15,10 +17,8 @@ import Energy from "../../img/categories/solar-panels.jpg"
 import aiforgood from '../../img/categories/artifical_intelligence.jpg'
 import AI from '../../img/categories/ai.jpg'
 import Blockchain from '../../img/categories/blockchain.jpg'
-import Bio_Tech from '../../img/categories/bio-tech.jpg';
 import Printing from '../../img/categories/3d-printing.jpg'
 import Remote_sensing from '../../img/categories/remote-sensing.jpg' 
-import IoT from '../../img/categories/iot.jpg'
 import Data_analysis from '../../img/categories/data-analysis.jpg';
 import Drones from '../../img/categories/drone&robotics.jpg'
 import AR from '../../img/categories/vr.jpg'
@@ -28,8 +28,8 @@ import Geo_spacial from '../../img/categories/geo.jpg'
 const categoryImageFile = (category: string) => {
 	switch (category) {
 		
-			case "Energy Environment":
-			return Energy_Enviroment
+			case "Environment":
+			return Enviroment
 
 		
 		
@@ -66,8 +66,14 @@ const categoryImageFile = (category: string) => {
 			return Shelter
 
 		
-			case "Disaster Resilience Governance Learning":
-				return Disaster_Resilience_Governance_Learning
+			case "Disaster Resilience":
+				return Disaster_Resilience
+
+		case "Governance":
+					return Governance
+
+		case "Learning":
+				return Learning
 
 				case AI:
 		return AI
@@ -77,8 +83,7 @@ const categoryImageFile = (category: string) => {
 			return Blockchain
 		
 
-		case 'IoT':
-			return IoT
+		
 
 		
 		case "AR/VR":
@@ -90,9 +95,7 @@ const categoryImageFile = (category: string) => {
 			return Printing
 
 			
-		case "Bio Tech":
-	
-	 return Bio_Tech
+		
 
 
 	 

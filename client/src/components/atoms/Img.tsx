@@ -5,7 +5,7 @@ import styles from './CategoryImage.module.scss'
 import aiforgood from '../../img/categories/artifical_intelligence.jpg'
 import AI from '../../img/categories/ai.jpg'
 import Blockchain from '../../img/categories/blockchain.jpg'
-import Bio_Tech from '../../img/categories/bio-tech.jpg';
+import Bio_Tech from '../../img/categories/bio.jpg';
 import Printing from '../../img/categories/3d-printing.jpg'
 import Remote_sensing from '../../img/categories/remote-sensing.jpg' 
 import IoT from '../../img/categories/iot.jpg'
@@ -36,7 +36,7 @@ const ImageFile = (subcategory: string) => {
 			return Printing
 
 			
-		case "Bio Tech":
+		case "Bio Technology":
 	
 	 return Bio_Tech
 
