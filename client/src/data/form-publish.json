@@ -47,9 +47,37 @@
             "Prosperity",
             "Security",
             "Health",
-            "Energy"
+            "Energy",
+            "Iot",
+            "AI",
+            "AR/VR",
+            "Blockchain",
+            "Data Analytics",
+            "Drones & Robotics",
+            "Remote Sensing",
+            "Geo-spacial Tech",
+            "IoT",
+            "3D Printing"
           ]
         },
+        "subcategory": {
+          "label": "Technologies",
+          "help": "Pick technology which best fits your data set.",
+          "type": "select",
+          "required": true,
+          "options": [
+            "AI",
+            "AR/VR",
+            "Blockchain",
+            "Data Analytics",
+            "Drones & Robotics",
+            "Remote Sensing",
+            "Geo-spacial Tech",
+            "IoT",
+            "3D Printing"
+          ]
+        },
+
         "dateCreated": {
           "label": "Creation Date",
           "help": "Select the date the asset was created, or was updated for the last time.",

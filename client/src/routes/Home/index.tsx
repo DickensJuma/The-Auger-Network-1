@@ -5,7 +5,6 @@ import CategoryImage from '../../components/atoms/CategoryImage'
 import CategoryLink from '../../components/atoms/CategoryLink'
 import Route from '../../components/templates/Route'
 import styles from './index.module.scss'
-
 import meta from '../../data/meta.json'
 import Content from '../../components/atoms/Content'
 import AssetsLatest from '../../components/organisms/AssetsLatest'
@@ -72,6 +71,9 @@ class Home extends PureComponent<HomeProps, HomeState> {
                             ))}
                     </div>
                 </Content>
+                
+               
+                
             </Route>
         )
     }
