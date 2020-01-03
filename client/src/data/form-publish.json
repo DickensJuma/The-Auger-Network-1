@@ -48,16 +48,8 @@
             "Security",
             "Health",
             "Energy",
-            "Iot",
-            "AI",
-            "AR/VR",
-            "Blockchain",
-            "Data Analytics",
-            "Drones & Robotics",
-            "Remote Sensing",
-            "Geo-spacial Tech",
-            "IoT",
-            "3D Printing"
+            "Iot"
+            
           ]
         },
         "subcategory": {

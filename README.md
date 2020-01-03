@@ -14,7 +14,7 @@
 [![js oceanprotocol](https://img.shields.io/badge/js-oceanprotocol-7b1173.svg)](https://github.com/oceanprotocol/eslint-config-oceanprotocol)
 [![css bigchaindb](https://img.shields.io/badge/css-bigchaindb-39BA91.svg)](https://github.com/bigchaindb/stylelint-config-bigchaindb)
 
-<img width="1218" alt="Commons UI" src="https://ibb.co/Cs4Yspz">
+<img width="1218" alt="Aug UI" src="https://ibb.co/Cs4Yspz">
 
 ---
 

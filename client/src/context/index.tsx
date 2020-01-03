@@ -28,6 +28,7 @@ export const User = React.createContext({
 export const Market = React.createContext({
     totalAssets: 0,
     categories: [''],
+    subcategories:[''],
     network: '',
     networkMatch: false
 })

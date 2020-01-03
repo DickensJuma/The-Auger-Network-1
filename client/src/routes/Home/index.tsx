@@ -2,7 +2,9 @@ import React, { PureComponent, FormEvent } from 'react'
 import { History } from 'history'
 import { Market } from '../../context'
 import CategoryImage from '../../components/atoms/CategoryImage'
+import Image from '../../components/atoms/Img'
 import CategoryLink from '../../components/atoms/CategoryLink'
+import Links from '../../components/atoms/Links'
 import Route from '../../components/templates/Route'
 import styles from './index.module.scss'
 import meta from '../../data/meta.json'
@@ -33,6 +35,7 @@ class Home extends PureComponent<HomeProps, HomeState> {
     }
 
     public render() {
+        console.log(this.context.subcategories)
         return (
             <Route
                 title={meta.title}
@@ -68,6 +71,23 @@ class Home extends PureComponent<HomeProps, HomeState> {
                                     <CategoryImage category={category} />
                                     <h3>{category}</h3>
                                 </CategoryLink>
+                            ))}
+                    </div>
+                </Content>
+                <Content wide>
+                    <h2 className={styles.title}>Explore Technologies</h2>
+                    <div className={styles.categories}>
+                        {this.context.subcategories
+                            .sort((a: any, b: any) => a.localeCompare(b)) // sort alphabetically
+                            .map((subcategory: string) => (
+                                <Links
+                                    subcategory={subcategory}
+                                    key={subcategory}
+                                    className={styles.category}
+                                >
+                                    <Image subcategory={subcategory} />
+                                    <h3>{subcategory}</h3>
+                                </Links>
                             ))}
                     </div>
                 </Content>
