@@ -1,13 +1,13 @@
 @import '../styles/variables';
 
 .resultsTitle {
-    color: $brand-grey-light;
+    color: $brand2;
     font-size: $font-size-h3;
     margin-top: -($spacer / 2);
     margin-bottom: $spacer;
 
     span {
-        color: $brand-grey-dark;
+        color: $brand-gradient;
     }
 }
 

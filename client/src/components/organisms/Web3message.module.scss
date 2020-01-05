@@ -2,7 +2,7 @@
 
 .message {
     margin-bottom: $spacer;
-    color: $brand-grey;
+    color: $brand-white;
     position: relative;
     padding-top: $spacer / 2;
     text-align: left;
@@ -11,9 +11,9 @@
 
 .account {
     margin-bottom: $spacer / 2;
-    background: $brand-white;
+    background: $brand2;
     border-radius: $border-radius;
-    border: 1px solid $brand-grey-lighter;
+    border: 1px solid $brand1;
     padding: $spacer / 2;
 }
 
@@ -21,6 +21,9 @@
     padding-left: $spacer * 1.5;
     display: inline-block;
     margin-bottom: 0;
+    color:$brand-white;
+
+                                                                    
 }
 
 .status {

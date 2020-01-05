@@ -13,7 +13,7 @@
 .info {
     background: $brand-white;
     padding: $spacer;
-    border: 1px solid $brand-grey-lighter;
+    border: 1px solid $brand2;
     border-radius: $border-radius;
 
     h3 {
@@ -23,13 +23,13 @@
     }
 
     p {
-        border-bottom: 1px solid $brand-grey-lighter;
+        border-bottom: 1px solid $brand2;
         padding-bottom: $spacer / 2;
     }
 
     code {
         padding: 0;
-        color: $brand-grey-light;
+        color: $brand-white;
     }
 }
 

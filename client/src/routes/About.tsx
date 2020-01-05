@@ -17,7 +17,7 @@ const About = () => {
             description={`A marketplace to find and publish open data sets in the Ocean ${market.network} Network.`}
         >
             <Content>
-                <p>
+                <p className={stylesVersionNumbers.versionsTitle}>
                     The Auger Network allows you to access thousands of datasets for free
                     that have been registered on the Ocean Protocol{' '}
                     <a href="https://docs.oceanprotocol.com/concepts/pacific-network/">
@@ -43,8 +43,8 @@ const About = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://github.com/oceanprotocol/The Auger Network">
-                            Check out <code>oceanprotocol/The Auger Network</code> on
+                        <a href="https://github.com/The Auger Network-1">
+                            Check out <code>oceanprotocol/The Auger Network-1</code> on
                             GitHub →
                         </a>
                     </li>

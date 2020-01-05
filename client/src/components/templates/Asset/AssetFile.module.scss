@@ -25,7 +25,7 @@
 
 .file {
     display: inline-block;
-    background: $brand-grey-dark
+    background: $orange1
         url('../../../../node_modules/@oceanprotocol/art/jellyfish/jellyfish-grid.svg')
         no-repeat -1rem 4.5rem;
     background-size: 100%;
@@ -43,7 +43,7 @@
         top: 0;
         width: 0;
         height: 0;
-        border-top: 1rem solid $body-background;
+        border-top: 1rem solid $brand-white;
         border-left: 1rem solid transparent;
     }
 

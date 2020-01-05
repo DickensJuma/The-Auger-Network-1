@@ -210,7 +210,7 @@ picture {
 hr {
     margin: $spacer 0;
     border: 0;
-    border-bottom: .1rem solid $brand-grey-lighter;
+    border-bottom: .1rem solid $brand2;
 }
 
 // Quotes
@@ -234,7 +234,7 @@ blockquote > p {
 blockquote {
     margin: 0 0 $spacer;
     padding-left: $spacer / 2;
-    border-left: .2rem solid $brand-grey-lighter;
+    border-left: .2rem solid $brand2;
 
     @media screen and (min-width: $break-point--small) {
         padding-left: $spacer / $line-height;
@@ -254,7 +254,7 @@ table {
         border: 0;
         margin: 0;
         padding: $spacer / 2;
-        border-bottom: 1px solid $brand-grey-lighter;
+        border-bottom: 1px solid $brand2;
         text-align: left;
         font-size: 90%;
 
@@ -297,7 +297,7 @@ samp {
 }
 
 :not(pre) > code {
-    color: $brand-grey-dark;
+    color: $brand-black;
     display: inline-block;
     padding-left: .15rem;
     padding-right: .15rem;
@@ -311,7 +311,7 @@ pre {
     display: block;
     margin-bottom: $spacer;
     padding: 0;
-    background: lighten($brand-grey-lighter, 5%);
+    background: lighten($brand2, 5%);
 
     // make 'em scrollable
     overflow: auto;
@@ -321,7 +321,7 @@ pre {
         padding: $spacer;
         white-space: pre;
         display: block;
-        color: $brand-grey-lighter;
+        color: $brand-black;
         overflow-wrap: normal;
         word-wrap: normal;
         word-break: normal;

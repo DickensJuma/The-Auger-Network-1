@@ -35,7 +35,7 @@ class Home extends PureComponent<HomeProps, HomeState> {
     }
 
     public render() {
-        console.log(this.context.subcategories)
+        
         return (
             <Route
                 title={meta.title}

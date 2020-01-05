@@ -30,7 +30,7 @@
     margin-left: calc(1.5rem + #{$spacer / 3});
     font-size: $font-size-small;
     font-weight: $font-weight-bold;
-    color: $brand-grey-light;
+    color: $brand-gradient;
 }
 
 .toggle {
@@ -65,15 +65,15 @@
         text-align: center;
         padding: $spacer / 2 $spacer;
         border-radius: $border-radius;
-        background: $body-background;
-        border: 1px solid $brand-grey-lighter;
+        background: $brand-white;
+        border: 1px solid $brand2;
         margin-bottom: $spacer / 4;
         word-break: normal;
     }
 }
 
 .seedphraseHelp {
-    color: $brand-grey-light;
+    color: $brand-white;
     font-size: $font-size-small;
     margin: 0;
 }
@@ -85,5 +85,5 @@
     display: inline-block;
     margin-right: $spacer / 3;
     margin-left: 0;
-    border: 1px solid $brand-grey-lighter;
+    border: 1px solid $brand2;
 }

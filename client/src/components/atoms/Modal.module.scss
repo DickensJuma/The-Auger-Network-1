@@ -11,7 +11,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba($brand-black, .7);
+    background: rgba($brand-white, .7);
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
@@ -43,6 +43,7 @@
 .title {
     font-size: $font-size-h3;
     margin: 0;
+    color: $brand-white;
 
     @media (min-width: $break-point--small) {
         font-size: $font-size-h2;
@@ -52,7 +53,10 @@
 .description {
     margin: 0;
     margin-top: $spacer / 2;
+    color:orangered
+    
 }
+
 
 .close {
     position: absolute;
@@ -64,7 +68,7 @@
     top: $spacer / 4;
     right: $spacer / 2;
     font-size: $font-size-h2;
-    color: $brand-grey;
+    color: $orange1;
 
     &:hover,
     &:focus {

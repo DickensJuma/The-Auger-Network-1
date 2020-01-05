@@ -9,7 +9,7 @@
         display: block;
         height: 100%;
         padding: $spacer;
-        border: 1px solid $brand-grey-lighter;
+        border: 1px solid $brand2;
         border-radius: $border-radius;
         background: $brand-white;
         color: inherit;
@@ -44,8 +44,8 @@
 
 .assetList {
     > a {
-        color: $brand-grey-dark;
-        border-bottom: 1px solid $brand-grey-lighter;
+        color: #d3a233;
+        border-bottom: 1px solid $brand2;
         padding-top: $spacer / 2;
         padding-bottom: $spacer / 2;
         display: flex;
@@ -80,19 +80,19 @@
         font-family: $font-family-base;
         margin-bottom: 0;
         font-size: $font-size-small;
-        color: $brand-grey;
+        color: $brand-black;
     }
 }
 
 .date {
     font-size: $font-size-small;
-    color: $brand-grey-light;
+    color: $brand-pink;
 }
 
 .assetFooter {
     margin-top: $spacer;
     font-size: $font-size-small;
-    color: $brand-grey-light;
+    color: #d3a233;
     display: flex;
     justify-content: space-between;
 }
@@ -101,7 +101,7 @@
     font-size: $font-size-mini;
 
     span {
-        color: $brand-grey;
+        color: $green;
         font-size: $font-size-small;
     }
 }

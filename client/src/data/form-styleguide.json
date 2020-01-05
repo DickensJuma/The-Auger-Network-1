@@ -37,11 +37,11 @@
       "label": "Industry",
       "type": "select",
       "required": true,
-      "options": ["Automotive", "Technology"]
+      "options": ["Energy", "Bio Technology"]
     },
     "date": {
       "label": "Date",
-      "placeholder": "e.g. 2019-08-12",
+      "placeholder": "e.g. 2020-01-05",
       "type": "date",
       "required": true
     }

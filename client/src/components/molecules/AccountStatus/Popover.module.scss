@@ -6,11 +6,11 @@ $popoverWidth: 18rem;
     position: relative;
     width: $popoverWidth;
     padding: $spacer / 2;
-    background: $brand-black;
+    background: $brand-white;
     border-radius: .1rem;
-    border: .1rem solid $brand-grey-light;
+    border: .1rem solid $brand2;
     box-shadow: 0 6px 16px 0 rgba($brand-black, .3);
-    color: $brand-grey-light;
+    color: $brand-black;
     font-size: $font-size-small;
     animation: showPopup .2s ease-in forwards;
     white-space: initial;
@@ -57,7 +57,7 @@ $popoverWidth: 18rem;
     white-space: nowrap;
 
     strong {
-        color: $brand-grey-lighter;
+        color: $green;
     }
 
     &:first-child {

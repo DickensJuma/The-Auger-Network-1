@@ -15,7 +15,7 @@
     grid-gap: $spacer;
     grid-auto-flow: column;
     padding: $spacer / 2 $spacer;
-    border-left: 1px solid $brand-grey-lighter;
+    border-left: 1px solid $brand2;
 
     &::-webkit-scrollbar,
     &::-moz-scrollbar {
@@ -31,7 +31,7 @@
     font-size: $font-size-h4;
     text-align: center;
     color: #ffffff;
-    border-bottom: 1px solid $brand-grey-lighter;
+    border-bottom: 1px solid $brand2;
     padding-bottom: $spacer / 3;
     margin-top: $spacer * 3;
     margin-bottom: $spacer / 2;

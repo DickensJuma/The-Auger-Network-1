@@ -5,16 +5,16 @@
 }
 
 .copyrightHolder {
-    color: $brand-grey-light;
+    color: $brand-white;
     font-size: $font-size-large;
-    border-bottom: 1px solid $brand-grey-lighter;
+    border-bottom: 1px solid $brand2;
     margin-bottom: $spacer / $line-height;
     padding-bottom: $spacer / $line-height;
 }
 
 .metaPrimaryData {
     font-size: $font-size-small;
-    color: $brand-grey-light;
+    color: $brand2;
 
     > * {
         display: block;
@@ -41,6 +41,7 @@
 .description {
     // respect line breaks from textarea
     white-space: pre-line;
+color:$brand-white;
 
     // handle assets where heading are used extensively in the description
     h1 {
@@ -97,7 +98,7 @@
     margin: 0;
     font-family: $font-family-base;
     font-weight: $font-weight-base;
-    color: $brand-grey-light;
+    color: $brand1;
     position: absolute;
     bottom: $spacer / 4;
     right: $spacer / 4;
@@ -105,6 +106,7 @@
 
 .metaLabel {
     display: block;
+    color: $brand2;
 
     @media (min-width: $break-point--small) {
         width: 30%;
@@ -117,6 +119,7 @@
     &,
     code {
         overflow-wrap: break-word;
+        color: $brand-white;
     }
 
     /* stylelint-disable declaration-no-important */

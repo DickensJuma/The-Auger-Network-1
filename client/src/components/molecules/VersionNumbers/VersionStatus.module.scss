@@ -13,6 +13,7 @@
     margin-left: $spacer / 1.5;
     margin-right: $spacer / 1.5;
     text-align: center;
+  
 }
 
 .indicator,
@@ -32,6 +33,6 @@
 
 .indicatorLabel {
     font-family: $font-family-title;
-    color: $brand-grey;
+    color: $brand2;
     text-transform: capitalize;
 }

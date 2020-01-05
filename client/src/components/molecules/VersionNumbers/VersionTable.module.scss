@@ -7,7 +7,7 @@
 }
 
 .table {
-    border-top: 1px solid $brand-grey-lighter;
+    border-top: 1px solid $brand2;
 
     table {
         margin-left: $spacer;
@@ -42,14 +42,14 @@
     a {
         &,
         code {
-            color: $brand-grey;
+            color: $brand-white;
         }
 
         &:hover,
         &:focus {
             &,
             code {
-                color: $brand-pink;
+                color: $orange1;
             }
         }
     }
