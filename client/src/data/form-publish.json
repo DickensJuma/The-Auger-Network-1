@@ -6,7 +6,7 @@
       "fields": {
         "name": {
           "label": "Title",
-          "placeholder": "e.g. Energy Enviroment",
+          "placeholder": "e.g. Energy",
           "type": "text",
           "required": true,
           "help": "Enter a concise title. You will be able to enter a more thorough description in the next step."
