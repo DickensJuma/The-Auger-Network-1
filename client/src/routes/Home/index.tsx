@@ -77,16 +77,16 @@ class Home extends PureComponent<HomeProps, HomeState> {
                 <Content wide>
                     <h2 className={styles.title}>Explore Technologies</h2>
                     <div className={styles.categories}>
-                        {this.context.subcategories
+                        {this.context.tags
                             .sort((a: any, b: any) => a.localeCompare(b)) // sort alphabetically
-                            .map((subcategory: string) => (
+                            .map((tags: string) => (
                                 <Links
-                                    subcategory={subcategory}
-                                    key={subcategory}
+                                    tags={tags}
+                                    key={tags}
                                     className={styles.category}
                                 >
-                                    <Image subcategory={subcategory} />
-                                    <h3>{subcategory}</h3>
+                                    <Image tags={tags} />
+                                    <h3>{tags}</h3>
                                 </Links>
                             ))}
                     </div>

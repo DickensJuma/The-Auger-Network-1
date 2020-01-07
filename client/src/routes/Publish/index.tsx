@@ -26,6 +26,7 @@ interface PublishState {
     type?: AssetType
     copyrightHolder?: string
     categories?: string
+    tags?:string
 
     currentStep?: number
     publishingStep?: number
@@ -60,6 +61,7 @@ class Publish extends Component<{}, PublishState> {
         license: '',
         copyrightHolder: '',
         categories: '',
+        tags:'',
 
         currentStep: 1,
         isPublishing: false,
@@ -72,6 +74,7 @@ class Publish extends Component<{}, PublishState> {
             2: {
                 description: false,
                 categories: false,
+                tags: false,
                 allFieldsValid: false
             },
             3: {
@@ -130,6 +133,7 @@ class Publish extends Component<{}, PublishState> {
             license: '',
             copyrightHolder: '',
             categories: '',
+            tags: '',
             isPublishing: false,
             isPublished: false,
             publishingStep: 0,
@@ -204,7 +208,7 @@ class Publish extends Component<{}, PublishState> {
         //
         // Step 2
         //
-        if (validationStatus[2].description && validationStatus[2].categories) {
+        if (validationStatus[2].description && validationStatus[2].categories&& validationStatus[2].tags) {
             this.setState(prevState => ({
                 validationStatus: {
                     ...prevState.validationStatus,
@@ -299,7 +303,10 @@ class Publish extends Component<{}, PublishState> {
                 {
                     description: this.state.description,
                     copyrightHolder: this.state.copyrightHolder,
-                    categories: [this.state.categories]
+                    categories: [this.state.categories],
+                    tags: [this.state.tags]
+
+                    
                 }
             )
         }

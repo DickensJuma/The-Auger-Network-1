@@ -10,13 +10,14 @@ const AssetModel: MetaData = {
         author: '',
         license: '',
         price: '',
-        files: []
+        files: [],
+        
     },
     additionalInformation: {
         description: '',
         copyrightHolder: '',
-        categories: [],
-        // subcategories:[]
+        categories: [],  
+        tags: []
         
     }
 }

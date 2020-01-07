@@ -54,7 +54,7 @@
             
           ]
         },
-        "subcategory": {
+        "tags": {
           "label": "Technologies",
           "help": "Pick technology which best fits your data set.",
           "type": "select",

@@ -2,21 +2,21 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Links = ({
-    subcategory,
+    tags,
     children,
     className,
     ...props
 }: {
-    subcategory: string
+    tags: string
     children?: any
     className?: string
 }) => (
     <Link
-        to={`/search?subcategory=${encodeURIComponent(subcategory)}`}
+        to={`/search?tags=${encodeURIComponent(tags)}`}
         className={className}
         {...props}
     >
-        {children || subcategory}
+        {children || tags}
     </Link>
 )
 

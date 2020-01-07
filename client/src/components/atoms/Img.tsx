@@ -15,8 +15,8 @@ import AR from '../../img/categories/vr.jpg'
 import Geo_spacial from '../../img/categories/geo.jpg'
 
 
-const ImageFile = (subcategory: string) => {
-	switch (subcategory) {
+const ImageFile = (tags: string) => {
+	switch (tags) {
 		
 		
 		case "Blockchain":
@@ -73,12 +73,12 @@ const ImageFile = (subcategory: string) => {
 
 
 export default class Image extends PureComponent<{
-	subcategory: string
+	tags: string
 	header?: boolean
 	dimmed?: boolean
 }> {
 	public render() {
-		const image = ImageFile(this.props.subcategory)
+		const image = ImageFile(this.props.tags)
 		const classNames = cx(styles.categoryImage, {
 			[styles.header]: this.props.header,
 			[styles.dimmed]: this.props.dimmed

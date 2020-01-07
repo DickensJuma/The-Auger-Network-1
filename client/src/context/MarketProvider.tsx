@@ -8,10 +8,10 @@ const categories =
         formPublish.steps[1].fields.categories &&
         formPublish.steps[1].fields.categories.options) ||
     []
-    const subcategories =
+    const tags =
     (formPublish.steps[1].fields &&
-        formPublish.steps[1].fields.subcategory &&
-        formPublish.steps[1].fields.subcategory.options) ||
+        formPublish.steps[1].fields.tags &&
+        formPublish.steps[1].fields.tags.options) ||
     [] 
 
 interface MarketProviderProps {
@@ -21,7 +21,7 @@ interface MarketProviderProps {
 interface MarketProviderState {
     totalAssets: number
     categories: string[]
-    subcategories: string[]
+    tags: string[]
     network: string
     networkMatch: boolean
 }
@@ -35,7 +35,7 @@ export default class MarketProvider extends PureComponent<
     public state = {
         totalAssets: 0,
         categories,
-        subcategories,
+         tags,
         network: 'Pacific',
         networkMatch: false
     }
